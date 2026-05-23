@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#0a0a0f" />
+<title>AI-консалтинг — аудит, разработка и внедрение AI-решений</title>
+<meta name="description" content="Внедрение AI в продукт и операции: аудит готовности, разработка агентов и RAG, голосовые ассистенты, компьютерное зрение, интеграция LLM. Senior-инженер, кейсы в проде, измеримые результаты." />
+<meta property="og:title" content="AI-консалтинг — аудит, разработка и внедрение AI-решений" />
+<meta property="og:description" content="Помогаю бизнесу внедрить AI там, где это окупается. От аудита до production-релиза." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://consulting.ai-service-hub.ru/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/style.css" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+</head>
+<body>
+
+<!-- Background mesh gradients -->
+<div class="bg-mesh" aria-hidden="true">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#" class="logo">
+      <span class="logo-mark"></span>
+      <span class="logo-text">AI<span class="logo-dot">·</span>consulting</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#services">Услуги</a>
+      <a href="#cases">Кейсы</a>
+      <a href="#approach">Подход</a>
+      <a href="#about">Обо&nbsp;мне</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary btn-sm">Обсудить проект</a>
+    <button class="nav-toggle" aria-label="Меню" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="badge">
+      <span class="badge-dot"></span>
+      Принимаю проекты на Q3 2026
+    </div>
+    <h1 class="hero-title">
+      Внедряю AI там,<br />
+      где это <span class="grad">окупается</span>.
+    </h1>
+    <p class="hero-sub">
+      Аудит готовности, разработка агентов и RAG-систем, голосовые ассистенты, компьютерное зрение для документов, интеграция LLM в существующие продукты. Senior-инженер с кейсами в продакшене.
+    </p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary">Обсудить проект →</a>
+      <a href="#cases" class="btn btn-ghost">Посмотреть кейсы</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">2&nbsp;место</div>
+        <div class="stat-label">Хакатон Сбера, AI-аналитика</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">Топ&nbsp;10</div>
+        <div class="stat-label">BITGN Prompted Agent Challenge</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">200M+</div>
+        <div class="stat-label">строк под AI-аналитикой в проде</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">8&nbsp;лет</div>
+        <div class="stat-label">в разработке, 3&nbsp;года в AI</div>
+      </div>
+    </div>
+
+    <div class="logos-strip">
+      <span class="logos-label">Работаю со стеком</span>
+      <div class="logos">
+        <span>OpenAI</span>
+        <span>Anthropic Claude</span>
+        <span>Whisper</span>
+        <span>pyannote</span>
+        <span>LangChain</span>
+        <span>FastAPI</span>
+        <span>Spring Boot</span>
+        <span>PostgreSQL + pgvector</span>
+        <span>Yandex Cloud</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Услуги</div>
+      <h2>Шесть направлений, в каждом — рабочие кейсы</h2>
+      <p class="section-sub">Беру задачи end-to-end: от первого разговора и аудита до релиза и поддержки в проде. Без «давайте сначала проведём 6-месячное исследование».</p>
+    </div>
+
+    <div class="grid grid-3">
+      <article class="card service">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>
+        </div>
+        <h3>AI-аудит и стратегия</h3>
+        <p>Где AI даст реальный ROI, где сожжёт бюджет. Карта use-case'ов, оценка готовности данных, выбор стека и моделей, дорожная карта на 3–12 месяцев.</p>
+        <ul class="card-list">
+          <li>Аудит за 2 недели</li>
+          <li>Технический и бизнес-фокус</li>
+          <li>Конкретные next steps, а не PDF на полку</li>
+        </ul>
+      </article>
+
+      <article class="card service">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg>
+        </div>
+        <h3>AI-агенты и tool-use</h3>
+        <p>Агенты, которые реально решают задачи, а не «диалоговое демо». Tool-use, multi-step reasoning, recovery от ошибок, audit trail и контроль стоимости.</p>
+        <ul class="card-list">
+          <li>Claude / GPT-4-level reasoning</li>
+          <li>Tool-design, JSON-schema, retry-стратегии</li>
+          <li>Honest benchmarks (топ-10 в публичном bench)</li>
+        </ul>
+      </article>
+
+      <article class="card service">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="19" cy="18" r="2"/></svg>
+        </div>
+        <h3>RAG и корпоративные знания</h3>
+        <p>Q&A по документам, базам знаний, регламентам. Правильный чанкинг, выбор embedder'а, метрики retrieval, защита от галлюцинаций.</p>
+        <ul class="card-list">
+          <li>pgvector / Qdrant / Chroma</li>
+          <li>Hybrid search (BM25 + dense)</li>
+          <li>Evaluation harness в комплекте</li>
+        </ul>
+      </article>
+
+      <article class="card service">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 1v22M5 8v8M19 8v8M2 11v2M22 11v2M8 5v14M16 5v14"/></svg>
+        </div>
+        <h3>Голосовые ассистенты</h3>
+        <p>STT → LLM → TTS пайплайны на проде. Whisper (облако или локально), диаризация спикеров, синтез речи. Кейсы в медицине, телефонии, кол-центрах.</p>
+        <ul class="card-list">
+          <li>Asterisk-интеграция, AGI-скрипты</li>
+          <li>faster-whisper, pyannote, ElevenLabs</li>
+          <li>Российские провайдеры (Yandex SpeechKit) как fallback</li>
+        </ul>
+      </article>
+
+      <article class="card service">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <h3>Vision и обработка документов</h3>
+        <p>Claude Vision / GPT-4V для документов, чертежей, накладных. Гибридные пайплайны, где LLM работает только там, где нет детерминированной логики.</p>
+        <ul class="card-list">
+          <li>CAD/DXF + Vision для промышленности</li>
+          <li>Структурированный JSON-выход через Pydantic</li>
+          <li>Перекрёстная верификация результатов</li>
+        </ul>
+      </article>
+
+      <article class="card service">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+        </div>
+        <h3>Интеграция LLM в продукт</h3>
+        <p>AI как часть существующего бэкенда — не отдельная демка. FastAPI / Spring Boot, очереди, контроль стоимости токенов, A/B тесты моделей, наблюдаемость.</p>
+        <ul class="card-list">
+          <li>Streaming, function calling, structured output</li>
+          <li>Защита от vendor-lock: 2+ провайдера</li>
+          <li>Метрики качества и стоимости в Grafana</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Cases -->
+<section class="section section-alt" id="cases">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Кейсы</div>
+      <h2>Что я делал — публичные и обезличенные</h2>
+      <p class="section-sub">Публичные проекты ссылаю напрямую. Кейсы под NDA — описаны категориями и техническими вызовами без раскрытия клиента.</p>
+    </div>
+
+    <div class="cases">
+      <article class="case case-feature">
+        <div class="case-meta">
+          <span class="tag tag-accent">Хакатон Сбера · 2-е место</span>
+          <span class="tag">Java / Spring Boot 4 · Claude Sonnet 4</span>
+        </div>
+        <h3>Pivot Copilot — AI-аналитика поверх 200M+ строк</h3>
+        <p>За 24 часа собрал с командой (как тимлид) AI-аналитическую платформу с agent loop: Claude выбирает из 8 инструментов, Java детерминированно считает, Claude интерпретирует. Materialized views, тюнинг PostgreSQL, защита от дорогих high-cardinality запросов.</p>
+        <div class="case-stack">
+          <span>Spring Boot 4</span><span>jOOQ</span><span>PostgreSQL</span><span>React 19</span><span>Claude Sonnet 4</span><span>Docker · Caddy</span>
+        </div>
+        <a href="https://aihub.nya.pub/" target="_blank" rel="noopener" class="case-link">Открыть live demo →</a>
+      </article>
+
+      <article class="case">
+        <div class="case-meta">
+          <span class="tag tag-accent">BITGN Challenge · Топ-10</span>
+          <span class="tag">Python · GPT-4.1</span>
+        </div>
+        <h3>Автономный агент в Prompted Agent Challenge</h3>
+        <p>Автономный агент с 9 инструментами над виртуальной файловой системой. Многопоточное исполнение, типобезопасные tool-calls через Pydantic, итеративная доводка от v1 к v2.</p>
+        <div class="case-stack">
+          <span>Python 3.14</span><span>OpenAI GPT-4.1</span><span>Protocol Buffers</span><span>ConnectRPC</span>
+        </div>
+        <a href="https://github.com/jiggo089/bitgn-challenge" target="_blank" rel="noopener" class="case-link">Код на GitHub →</a>
+      </article>
+
+      <article class="case">
+        <div class="case-meta">
+          <span class="tag">Medtech · NDA</span>
+          <span class="tag">Embedded + AI · Production</span>
+        </div>
+        <h3>Носимое медицинское устройство с авто-расшифровкой приёма</h3>
+        <p>End-to-end продукт: hardware (ESP32-S3 + BLE) → бэкенд (FastAPI + Celery) → AI-пайплайн (faster-whisper large-v3 + pyannote-audio + GPT-4o → структурированная медицинская запись). Защита от vendor-lock: переключение между провайдерами через конфиг.</p>
+        <div class="case-stack">
+          <span>ESP32-S3</span><span>FastAPI</span><span>PostgreSQL</span><span>MinIO</span><span>faster-whisper</span><span>pyannote</span><span>GPT-4o</span>
+        </div>
+        <span class="case-link case-link-muted">Демо — по запросу под NDA</span>
+      </article>
+
+      <article class="case">
+        <div class="case-meta">
+          <span class="tag">Промышленность · NDA</span>
+          <span class="tag">Claude Vision + CAD</span>
+        </div>
+        <h3>Анализ инженерных чертежей с гибридным пайплайном</h3>
+        <p>Claude Vision как часть детерминированного пайплайна: парсинг DXF (ezdxf) + геометрия (Shapely, boolean ops) + LLM-fallback только там, где правил недостаточно. Golden-dataset тестирование, точность ±1 мм² на ключевых сценариях.</p>
+        <div class="case-stack">
+          <span>Claude Vision</span><span>Claude Haiku</span><span>ezdxf</span><span>Shapely</span><span>Pydantic v2</span>
+        </div>
+        <span class="case-link case-link-muted">Кейс под NDA</span>
+      </article>
+
+      <article class="case">
+        <div class="case-meta">
+          <span class="tag tag-accent">Public · Telephony</span>
+          <span class="tag">Asterisk + OpenAI</span>
+        </div>
+        <h3>AI-кол-центр для клиники</h3>
+        <p>Полная цепочка для входящего вызова: IVR → запись в WAV → Whisper → GPT-4o → TTS → проигрывание в трубку. Корректная работа с форматами SIP-телефонии (8 кГц mono).</p>
+        <div class="case-stack">
+          <span>Asterisk PBX</span><span>Python AGI</span><span>Whisper</span><span>GPT-4o</span><span>OpenAI TTS</span><span>SoX</span>
+        </div>
+        <a href="https://github.com/jiggo089/asterisk_ai_call_centre" target="_blank" rel="noopener" class="case-link">Код на GitHub →</a>
+      </article>
+
+      <article class="case">
+        <div class="case-meta">
+          <span class="tag">Evaluation · NDA</span>
+          <span class="tag">FastAPI · Qwen3.5</span>
+        </div>
+        <h3>Evaluation harness для AI-агента</h3>
+        <p>«Как мы поймём, что AI работает?» — болевая точка любого внедрения. Сделал фреймворк: 23 probe-сценария × 10 измерений качества, signal-checkers + LLM-as-judge, scoreboard версий промптов, HTML-отчёты, live-логи через SSE.</p>
+        <div class="case-stack">
+          <span>FastAPI</span><span>asyncio</span><span>Qwen3.5</span><span>GPT-4.1-mini</span><span>SSE</span>
+        </div>
+        <span class="case-link case-link-muted">Шаблон доступен под проект</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Approach -->
+<section class="section" id="approach">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Подход</div>
+      <h2>Как мы будем работать</h2>
+      <p class="section-sub">Никакого «AI ради AI» и шестимесячных исследований. Гипотеза → быстрый PoC → решение, делаем дальше или закрываем честно.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h3>Discovery — 1 неделя</h3>
+        <p>30–60 минутный разговор + изучение задачи. На выходе: 3–5 ранжированных use-case'ов с оценкой ROI, рисков и сложности. Бесплатно.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h3>Аудит — 2 недели</h3>
+        <p>Глубокий анализ выбранного направления: данные, инфраструктура, выбор моделей и стека, конкуренты, дорожная карта на 3–6 месяцев. Фикс-прайс, документ + презентация.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h3>PoC — 3–4 недели</h3>
+        <p>Рабочий прототип на реальных данных. Метрики качества и стоимости. Решаем go/no-go на основе цифр, а не ощущений.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <h3>Production — 1–3 месяца</h3>
+        <p>MVP в проде с мониторингом, контролем стоимости и evaluation harness. Дальше — поддержка или передача команде клиента с документацией и обучением.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="section section-alt" id="about">
+  <div class="container">
+    <div class="about">
+      <div class="about-text">
+        <div class="eyebrow">Обо мне</div>
+        <h2>Инженер, а не «AI-евангелист»</h2>
+        <p class="about-lead">
+          Senior full-stack с 8-летним опытом, последние 3 года — в AI/LLM на проде. Прошёл путь от ML-курса ФКН ВШЭ до production-систем с агентами и кастомным STT-пайплайном на ESP32.
+        </p>
+        <p>
+          Не люблю красивые слайды без чисел. Люблю — когда заказчик говорит «теперь у нас всё работает» и присылает скриншот метрик. Не возьмусь за проект, где AI не нужен — честно скажу.
+        </p>
+        <ul class="about-list">
+          <li>
+            <strong>Стек:</strong> Python (FastAPI, async), Java (Spring Boot), TypeScript/React, Flutter, embedded (ESP32). Базы: PostgreSQL + pgvector, MongoDB, MinIO, Redis.
+          </li>
+          <li>
+            <strong>AI-провайдеры:</strong> OpenAI (GPT-4o/4.1, Whisper, TTS, Vision), Anthropic Claude (Sonnet, Haiku, Vision), Yandex Cloud (SpeechKit + LLM), локальные модели (faster-whisper, pyannote).
+          </li>
+          <li>
+            <strong>DevOps:</strong> Docker, Nginx, GitHub Actions CI/CD, мониторинг через Grafana/Netdata.
+          </li>
+          <li>
+            <strong>Языки:</strong> русский, английский (свободно — работаю с международными бенчмарками и SDK).
+          </li>
+        </ul>
+      </div>
+      <div class="about-side">
+        <div class="card achievements">
+          <h3>Достижения</h3>
+          <ul>
+            <li><span class="ach-num">2</span> место на хакатоне Сбера по AI-аналитике</li>
+            <li><span class="ach-num">10</span> место (топ-10) в BITGN Prompted Agent Challenge</li>
+            <li><span class="ach-num">5+</span> production-систем с LLM в основном цикле</li>
+            <li><span class="ach-num">25</span> репозиториев на GitHub, активная разработка</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section section-contact" id="contact">
+  <div class="container">
+    <div class="contact-card">
+      <div class="contact-text">
+        <div class="eyebrow">Свяжитесь</div>
+        <h2>Расскажите о задаче — 30 минут бесплатно</h2>
+        <p>Опишите ситуацию в свободной форме: что есть, чего хочется. В ответ — короткая оценка, нужно ли вам AI, и если да — как лучше подойти. Без обязательств.</p>
+      </div>
+      <div class="contact-actions">
+        <a href="mailto:rkuskildin@gmail.com?subject=AI-консалтинг%20—%20заявка" class="btn btn-primary btn-lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          rkuskildin@gmail.com
+        </a>
+        <a href="https://t.me/jiggo089" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+          Telegram @jiggo089
+        </a>
+        <a href="https://github.com/jiggo089" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55 0-.27-.01-1-.02-1.96-3.2.7-3.87-1.54-3.87-1.54-.52-1.32-1.27-1.68-1.27-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.69 1.24 3.34.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.26 5.69.41.35.78 1.05.78 2.11 0 1.53-.01 2.76-.01 3.13 0 .31.21.66.8.55 4.56-1.52 7.85-5.83 7.85-10.91C23.5 5.65 18.35.5 12 .5z"/></svg>
+          GitHub jiggo089
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>© 2026 AI-консалтинг · <a href="mailto:rkuskildin@gmail.com">rkuskildin@gmail.com</a></div>
+    <div class="footer-meta">Сделано вручную, без шаблонов и no-code конструкторов</div>
+  </div>
+</footer>
+
+<script src="/app.js" defer></script>
+</body>
+</html>
